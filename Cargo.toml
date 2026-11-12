@@ -1,0 +1,15 @@
+[package]
+name = "fe11-sys"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+license = "Apache-2.0"
+repository = "https://github.com/BorealCryptosystems/fe11-sys"
+authors = ["Benoit de Mulder <bendemulder@borealcryptosystems.com>"]
+description = "Raw PKCS#11 declarations for explicit Linux and Windows ABI profiles"
+readme = "README.md"
+include = ["src/**", "Cargo.toml", "README.md", "HEADER-NOTES.md", "LICENSE", "COPYRIGHT", "NOTICE.txt", "provenance.json", "source-layout.json", "CONTRIBUTING.md", "SECURITY.md", "CONTRIBUTORS.md"]
+
+[lib]
+name = "fe11_sys"
+path = "src/lib.rs"
